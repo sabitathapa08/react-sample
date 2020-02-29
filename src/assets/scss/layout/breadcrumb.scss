@@ -1,0 +1,37 @@
+.breadcrumb{
+  margin: 1rem 0;
+  list-style: none;
+  border-radius: 4px;
+  padding:0;
+  background-color: transparent;
+}
+.fieldsight-new{
+    .breadcrumb{
+        margin: 1rem 0;
+        list-style: none;
+        border-radius: 4px;
+        padding:0;
+        background-color: transparent;
+      .breadcrumb-item+.breadcrumb-item{
+        &::before{
+            display: inline-block;
+            padding-right: .5rem;
+            padding-left: .5rem;
+            content: "\f10e";
+            font-family: 'LineAwesome';
+
+        }
+        a{
+            &:hover{
+                color:$color-secondary;
+            }
+        }
+      }
+      .breadcrumb-item{
+        text-transform: capitalize;
+          &.active{
+            color:$color-secondary;
+          }
+      }
+    }
+  }

@@ -1,0 +1,40 @@
+# Optional npm cache directory
+.npm
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Webstorm files
+.idea
+.idea/**
+
+# Public uploaded files in server application
+server_app/public
+
+#mongBackup
+mongBackup
+
+.env
+
+dist/
